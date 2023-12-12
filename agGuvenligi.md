@@ -82,7 +82,7 @@ Veri güvenliği ve gizliliği, hassas bilgilerin korunması ve yetkisiz erişim
 - Kullanıcıların yetkilendirilmiş erişimine yönelik politikalar
 - İleri düzey erişim denetimleri ve izleme
 
-# Sonuç
+## Sonuç
 
 Ağ güvenliği, bir dizi entegre strateji ile gerçekleştirilir. Fiziksel, yazılımsal ve ağ güvenliği unsurları, veri güvenliği ve gizliliği ile birleştiğinde, organizasyonlar kapsamlı bir güvenlik çerçevesi oluşturabilir ve bu sayede bilişim sistemlerini etkili bir şekilde koruyabilirler. Eğitim ve farkındalık, bu stratejilerin başarıyla uygulanmasında kritik bir rol oynar.
 
