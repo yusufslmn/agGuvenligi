@@ -6,7 +6,7 @@
 
 # A.AĞ GÜVENLİĞİ STRATEJİLERİ
 
-## A.1. Fiziksel Güvenlik Stratejileri
+## 1. Fiziksel Güvenlik Stratejileri
 
 ### 1.1. Tanım
 Fiziksel güvenlik, donanım ve cihazların fiziksel erişimine karşı koruma sağlar.
