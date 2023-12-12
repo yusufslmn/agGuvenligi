@@ -216,7 +216,7 @@ Bu başlıkta, ağ güvenliği alanındaki güncel sorunlara odaklanıldı ve bu
 
 ## Güvenlik Açıkları Tespiti ve Kapatılması İçin En İyi Uygulamalar
 
-### II. Zayıf Nokta Analizi (Vulnerability Assessment)
+###  Zayıf Nokta Analizi (Vulnerability Assessment)
 
 #### 1. Düzenli Zayıf Nokta Analizleri
 
@@ -234,7 +234,7 @@ Bu başlıkta, ağ güvenliği alanındaki güncel sorunlara odaklanıldı ve bu
 - **Çözüm:**
   - Aktif ve pasif analizler bir arada kullanılarak daha kapsamlı bir güvenlik değerlendirmesi yapılmalıdır.
 
-### III. Güvenlik Duvarları ve İntrüzyon Önleme Sistemleri (Firewalls ve IPS)
+###  Güvenlik Duvarları ve İntrüzyon Önleme Sistemleri (Firewalls ve IPS)
 
 #### 1. Güvenlik Duvarları ve IPS Kullanımı
 
@@ -244,7 +244,7 @@ Bu başlıkta, ağ güvenliği alanındaki güncel sorunlara odaklanıldı ve bu
 - **Çözüm:**
   - Güvenlik duvarları ve IPS, güncel imza tabanlı tehdit veritabanları ile düzenli olarak güncellenmelidir.
 
-### IV. Güçlü Kimlik Doğrulama ve Erişim Kontrolleri
+###  Güçlü Kimlik Doğrulama ve Erişim Kontrolleri
 
 #### 1. Çok Faktörlü Kimlik Doğrulama
 
@@ -262,7 +262,7 @@ Bu başlıkta, ağ güvenliği alanındaki güncel sorunlara odaklanıldı ve bu
 - **Çözüm:**
   - Erişim hakları düzenli olarak gözden geçirilmeli ve gereksiz ayrıcalıklar kaldırılmalıdır.
 
-### V. Güvenlik Eğitimleri ve Farkındalık
+###  Güvenlik Eğitimleri ve Farkındalık
 
 #### 1. Güvenlik Eğitimleri
 
@@ -272,7 +272,7 @@ Bu başlıkta, ağ güvenliği alanındaki güncel sorunlara odaklanıldı ve bu
 - **Çözüm:**
   - Düzenli güvenlik eğitimleri düzenlenmeli ve personel güvenlik bilincini artırmak için sürekli olarak eğitilmelidir.
 
-### VI. Güvenlik Olayları İzleme ve Tepki (SIEM)
+###  Güvenlik Olayları İzleme ve Tepki (SIEM)
 
 #### 1. Güvenlik Olayları İzleme
 
@@ -282,7 +282,7 @@ Bu başlıkta, ağ güvenliği alanındaki güncel sorunlara odaklanıldı ve bu
 - **Çözüm:**
   - SIEM araçları kullanılarak güvenlik olayları izlenmeli ve hızlı bir şekilde tepki verilmelidir.
 
-### VII. Güvenlik Politikaları ve Uygulamaları
+###  Güvenlik Politikaları ve Uygulamaları
 
 #### 1. Güvenlik Politikaları
 
