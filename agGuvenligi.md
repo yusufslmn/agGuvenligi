@@ -210,35 +210,86 @@ Bu rapor, günümüzdeki ağ güvenliği peyzajındaki önemli sorunları ele al
 2. **IoT Cihazları İçin Önlemler:**
    - IoT cihazları için güçlü parolalar, şifreleme ve düzenli güvenlik güncellemeleri sağlanmalıdır.
 
-## V. Güvenlik Açıklarının Tespiti ve Kapatılması İçin En İyi Uygulamalar
-
-### Zayıf Nokta Analizi (Vulnerability Assessment)
-
-- Ağ üzerindeki güvenlik açıklarını belirlemek için düzenli olarak zayıf nokta analizleri yapılmalıdır.
-- Otomatik tarayıcılar ve manuel incelemeler ile tespit edilen açıklar hızla kapatılmalıdır.
-
-### Güvenlik Duvarları ve İntrüzyon Önleme Sistemleri (Firewalls ve IPS)
-
-- Güvenlik duvarları ve IPS, ağ trafiğini izleyerek kötü niyetli aktiviteleri engeller.
-- Güncel imza tabanlı tehdit veritabanları kullanılmalı ve düzenli olarak güncellenmelidir.
-
-### Güçlü Kimlik Doğrulama ve Erişim Kontrolleri
-
-- Çok faktörlü kimlik doğrulama, kullanıcı kimliklerinin güvenliğini artırır.
-- Erişim hakları düzenli olarak gözden geçirilmeli ve gereksiz ayrıcalıklar kaldırılmalıdır.
-
-### Güvenlik Eğitimleri ve Farkındalık
-
-- Personel, sosyal mühendislik saldırılarına karşı eğitilmeli ve güvenlik bilincini artırmak için düzenli eğitimlere tabi tutulmalıdır.
-
-### Güvenlik Olayları İzleme ve Tepki (SIEM)
-
-- SIEM araçları kullanılarak güvenlik olayları izlenmeli ve anormal aktiviteler tespit edildiğinde hızlı bir şekilde tepki verilmelidir.
-
-### Güvenlik Politikaları ve Uygulamaları
-
-- Güvenlik politikaları belirlenmeli ve tüm çalışanlar bu politikalar konusunda eğitilmelidir.
-- Politikalara uyumu denetlemek ve sürekli olarak gözden geçirmek önemlidir.
-## VI. Sonuç
+## V. Sonuç
 
 Bu başlıkta, ağ güvenliği alanındaki güncel sorunlara odaklanıldı ve bu sorunlara karşı alınabilecek çeşitli çözümleri ele alınmıştır. Ancak, ağ güvenliği sürekli bir süreç olduğundan, kuruluşların bu sorunlara karşı uyanık olmaları ve güvenlik önlemlerini sürekli olarak gözden geçirmeleri kritik öneme sahiptir.
+
+## Güvenlik Açıkları Tespiti ve Kapatılması İçin En İyi Uygulamalar
+
+### II. Zayıf Nokta Analizi (Vulnerability Assessment)
+
+#### 1. Düzenli Zayıf Nokta Analizleri
+
+- **Sorun:**
+  - Ağ üzerindeki güvenlik açıklarını belirlemek için periyodik zayıf nokta analizleri yapılmalıdır.
+  
+- **Çözüm:**
+  - Otomatik tarayıcılar ve manuel incelemeler kullanılarak tespit edilen açıklar hızla kapatılmalıdır.
+
+#### 2. Aktif ve Pasif Analiz
+
+- **Sorun:**
+  - Sadece aktif analizler yapmak yeterli değildir, aynı zamanda pasif analizlerle de ağ trafiği izlenmelidir.
+  
+- **Çözüm:**
+  - Aktif ve pasif analizler bir arada kullanılarak daha kapsamlı bir güvenlik değerlendirmesi yapılmalıdır.
+
+### III. Güvenlik Duvarları ve İntrüzyon Önleme Sistemleri (Firewalls ve IPS)
+
+#### 1. Güvenlik Duvarları ve IPS Kullanımı
+
+- **Sorun:**
+  - Kötü niyetli aktivitelerin engellenmesi için güvenlik duvarları ve IPS kullanımı zayıf olabilir.
+  
+- **Çözüm:**
+  - Güvenlik duvarları ve IPS, güncel imza tabanlı tehdit veritabanları ile düzenli olarak güncellenmelidir.
+
+### IV. Güçlü Kimlik Doğrulama ve Erişim Kontrolleri
+
+#### 1. Çok Faktörlü Kimlik Doğrulama
+
+- **Sorun:**
+  - Kullanıcı kimliklerinin güvenliği yeterli değilse, yetkisiz erişim riski artar.
+  
+- **Çözüm:**
+  - Çok faktörlü kimlik doğrulama kullanılarak güvenlik seviyesi artırılmalıdır.
+
+#### 2. Erişim Hakları Yönetimi
+
+- **Sorun:**
+  - Erişim hakları düzenli olarak gözden geçirilmezse, gereksiz ayrıcalıklar risk oluşturabilir.
+  
+- **Çözüm:**
+  - Erişim hakları düzenli olarak gözden geçirilmeli ve gereksiz ayrıcalıklar kaldırılmalıdır.
+
+### V. Güvenlik Eğitimleri ve Farkındalık
+
+#### 1. Güvenlik Eğitimleri
+
+- **Sorun:**
+  - Personel, sosyal mühendislik saldırılarına karşı yeterince eğitilmemiş olabilir.
+  
+- **Çözüm:**
+  - Düzenli güvenlik eğitimleri düzenlenmeli ve personel güvenlik bilincini artırmak için sürekli olarak eğitilmelidir.
+
+### VI. Güvenlik Olayları İzleme ve Tepki (SIEM)
+
+#### 1. Güvenlik Olayları İzleme
+
+- **Sorun:**
+  - Güvenlik olayları izlenmezse, anormal aktiviteler tespit edilemez.
+  
+- **Çözüm:**
+  - SIEM araçları kullanılarak güvenlik olayları izlenmeli ve hızlı bir şekilde tepki verilmelidir.
+
+### VII. Güvenlik Politikaları ve Uygulamaları
+
+#### 1. Güvenlik Politikaları
+
+- **Sorun:**
+  - Güvenlik politikalarının eksik veya güncel olmaması güvenlik zafiyetlerine neden olabilir.
+  
+- **Çözüm:**
+  - Güvenlik politikaları oluşturulmalı, tüm çalışanlar bu politikalar konusunda eğitilmeli ve politikalara uyumu denetlemek için sürekli gözden geçirilmelidir.
+
+
