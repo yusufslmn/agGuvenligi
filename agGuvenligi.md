@@ -6,7 +6,7 @@
 
 # A.AĞ GÜVENLİĞİ STRATEJİLERİ
 
-## 1. Fiziksel Güvenlik Stratejileri
+## A.1. Fiziksel Güvenlik Stratejileri
 
 ### 1.1. Tanım
 Fiziksel güvenlik, donanım ve cihazların fiziksel erişimine karşı koruma sağlar.
@@ -92,9 +92,9 @@ Ağ güvenliği, bir dizi entegre strateji ile gerçekleştirilir. Fiziksel, yaz
 
 Ağ güvenliği, iş sürekliliği ve veri güvenliği için kritik bir öneme sahiptir. Bu sunumda, temel ağ güvenliği uygulamalarını ve araçlarını detaylı bir şekilde ele alacağız.
 
-## Temel Güvenlik Uygulamaları
+## 1.Temel Güvenlik Uygulamaları
 
-### Güvenlik Duvarları
+### 1.1 Güvenlik Duvarları
 
 - **Tanım:** Ağ trafiğini izleyen ve kontrol eden bir güvenlik önlemidir.
 - **Önemi:**
@@ -102,7 +102,7 @@ Ağ güvenliği, iş sürekliliği ve veri güvenliği için kritik bir öneme s
   - Ağ içindeki iletişimi kontrol eder ve yetkisiz erişimlere karşı koruma sağlar.
   - Stateful güvenlik duvarları, bağlantı durumunu takip ederek gelişmiş güvenlik sağlar.
 
-### IDS/IPS (Saldırı Algılama ve Önleme Sistemleri)
+### 1.2 IDS/IPS (Saldırı Algılama ve Önleme Sistemleri)
 
 - **Tanım:** IDS, anormal aktiviteleri algılar; IPS ise bu aktivitelere karşı otomatik önlemler alır.
 - **Önemi:**
@@ -110,7 +110,7 @@ Ağ güvenliği, iş sürekliliği ve veri güvenliği için kritik bir öneme s
   - IPS, algılanan saldırılara karşı otomatik önlemler alarak hızlı bir tepki sağlar.
   - İmza tabanlı ve davranış tabanlı saldırı tespiti gibi çeşitli metodolojilerle çalışabilir.
 
-### Antivirüs Yazılımları
+### 1.3 Antivirüs Yazılımları
 
 - **Tanım:** Bilgisayar sistemlerini zararlı yazılımlardan koruyan önemli bir güvenlik katmanıdır.
 - **Önemi:**
@@ -118,16 +118,16 @@ Ağ güvenliği, iş sürekliliği ve veri güvenliği için kritik bir öneme s
   - Güncellenmiş virüs tanımlarıyla sürekli olarak tehditleri izler ve karantinaya alır.
   - Gerçek zamanlı koruma sağlayarak kullanıcıları anında korur.
 
-## Kriptografi ve Şifreleme
+## 2.Kriptografi ve Şifreleme
 
-### Kriptografi
+### 2.1Kriptografi
 
 - **Tanım:** Matematiksel algoritmalar kullanarak bilgilerin güvenli bir şekilde iletilmesi veya depolanması işlemidir.
 - **Önemi:**
   - Veri gizliliğini sağlar, sadece yetkili kişilerin bilgilere erişmesine izin verir.
   - Güvenli iletişim için kullanılarak veri paketlerini şifreler.
 
-### Şifreleme Araçları
+### 2.2 Şifreleme Araçları
 
 - **Tanım:** Veriyi okunamaz bir hale getirme işlemidir, yalnızca belirli anahtara sahip kişilerin okuyabilmesini sağlar.
 - **Önemi:**
@@ -135,7 +135,7 @@ Ağ güvenliği, iş sürekliliği ve veri güvenliği için kritik bir öneme s
   - SSL/TLS gibi protokollerle güvenli web iletişimini destekler.
   - Disk, dosya veya iletişim kanalları üzerinde şifreleme kullanılarak güvenliği artırır.
 
-## Örnek Senaryolar ve İleri Teknolojiler
+## 3. Örnek Senaryolar ve İleri Teknolojiler
 
 - **Sıfır Gün Saldırıları:** Ağ güvenliğini güçlendirmek için sıfır gün saldırılarına karşı savunma stratejileri.
   
@@ -149,11 +149,11 @@ Ağ güvenliği, çok katmanlı bir yaklaşım gerektirir. Güvenlik duvarları,
 
 # C.Güncel Ağ Güvenliği Sorunları ve Çözümleri
 
-## I. Giriş
+##  Giriş
 
 Bu rapor, günümüzdeki ağ güvenliği peyzajındaki önemli sorunları ele almakta ve bu sorunlara karşı alınabilecek çeşitli önlemleri incelemektedir. Temel odak noktaları arasında DDoS saldırıları, veri ihlalleri ve diğer güvenlik tehditleri bulunmaktadır.
 
-## II. DDoS Saldırıları
+## I. DDoS Saldırıları
 
 ### Sorunlar
 
@@ -171,7 +171,7 @@ Bu rapor, günümüzdeki ağ güvenliği peyzajındaki önemli sorunları ele al
 2. **Bulut Tabanlı Güvenlik Hizmetleri:**
    - Bulut tabanlı DDoS koruma hizmetleri, hızlı tepki ve yüksek bant genişliği ile etkili bir çözüm sunabilir.
 
-## III. Veri İhlalleri
+## II. Veri İhlalleri
 
 ### Sorunlar
 
@@ -192,7 +192,7 @@ Bu rapor, günümüzdeki ağ güvenliği peyzajındaki önemli sorunları ele al
 3. **Güvenlik Denetimleri ve İzleme:**
    - Düzenli güvenlik denetimleri ve izleme, potansiyel ihlalleri önceden tespit etmeye yardımcı olabilir.
 
-## IV. Diğer Güvenlik Tehditleri
+## III. Diğer Güvenlik Tehditleri
 
 ### Sorunlar
 
@@ -210,7 +210,7 @@ Bu rapor, günümüzdeki ağ güvenliği peyzajındaki önemli sorunları ele al
 2. **IoT Cihazları İçin Önlemler:**
    - IoT cihazları için güçlü parolalar, şifreleme ve düzenli güvenlik güncellemeleri sağlanmalıdır.
 
-## V. Sonuç
+##  Sonuç
 
 Bu başlıkta, ağ güvenliği alanındaki güncel sorunlara odaklanıldı ve bu sorunlara karşı alınabilecek çeşitli çözümleri ele alınmıştır. Ancak, ağ güvenliği sürekli bir süreç olduğundan, kuruluşların bu sorunlara karşı uyanık olmaları ve güvenlik önlemlerini sürekli olarak gözden geçirmeleri kritik öneme sahiptir.
 
