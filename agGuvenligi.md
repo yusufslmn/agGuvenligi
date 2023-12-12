@@ -1,6 +1,6 @@
 # Ağ GÜVENLİĞİ PROJE ÖDEVİ
 ## Ana 3 Başlık Üzerinde Durulacaktır
-### A.AĞ Güvenliği Stratejileri
+### A.Ağ Güvenliği Stratejileri
 ### B.Ağ Güvenliği Uygulamaları ve Araçları
 ### C.Güncel Ağ Güvenliği Sorunları ve Çözümleri
 
