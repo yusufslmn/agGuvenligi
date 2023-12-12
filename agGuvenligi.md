@@ -152,7 +152,7 @@ Ağ güvenliği, çok katmanlı bir yaklaşım gerektirir. Güvenlik duvarları,
 
 ##  Giriş
 
-Bu rapor, günümüzdeki ağ güvenliği peyzajındaki önemli sorunları ele almakta ve bu sorunlara karşı alınabilecek çeşitli önlemleri incelemektedir. Temel odak noktaları arasında DDoS saldırıları, veri ihlalleri ve diğer güvenlik tehditleri bulunmaktadır.
+Bu başlıkta, günümüzdeki ağ güvenliği peyzajındaki önemli sorunları ele almakta ve bu sorunlara karşı alınabilecek çeşitli önlemler incelenecektir. Temel odak noktaları arasında DDoS saldırıları, veri ihlalleri ve diğer güvenlik tehditleri bulunmaktadır.
 
 ## 1. DDoS Saldırıları
 
