@@ -94,7 +94,7 @@ Ağ güvenliği, iş sürekliliği ve veri güvenliği için kritik bir öneme s
 
 ## 1.Temel Güvenlik Uygulamaları
 
-### 1.1 Güvenlik Duvarları
+### 1.1. Güvenlik Duvarları
 
 - **Tanım:** Ağ trafiğini izleyen ve kontrol eden bir güvenlik önlemidir.
 - **Önemi:**
@@ -102,7 +102,7 @@ Ağ güvenliği, iş sürekliliği ve veri güvenliği için kritik bir öneme s
   - Ağ içindeki iletişimi kontrol eder ve yetkisiz erişimlere karşı koruma sağlar.
   - Stateful güvenlik duvarları, bağlantı durumunu takip ederek gelişmiş güvenlik sağlar.
 
-### 1.2 IDS/IPS (Saldırı Algılama ve Önleme Sistemleri)
+### 1.2. IDS/IPS (Saldırı Algılama ve Önleme Sistemleri)
 
 - **Tanım:** IDS, anormal aktiviteleri algılar; IPS ise bu aktivitelere karşı otomatik önlemler alır.
 - **Önemi:**
@@ -110,7 +110,7 @@ Ağ güvenliği, iş sürekliliği ve veri güvenliği için kritik bir öneme s
   - IPS, algılanan saldırılara karşı otomatik önlemler alarak hızlı bir tepki sağlar.
   - İmza tabanlı ve davranış tabanlı saldırı tespiti gibi çeşitli metodolojilerle çalışabilir.
 
-### 1.3 Antivirüs Yazılımları
+### 1.3. Antivirüs Yazılımları
 
 - **Tanım:** Bilgisayar sistemlerini zararlı yazılımlardan koruyan önemli bir güvenlik katmanıdır.
 - **Önemi:**
@@ -120,14 +120,14 @@ Ağ güvenliği, iş sürekliliği ve veri güvenliği için kritik bir öneme s
 
 ## 2.Kriptografi ve Şifreleme
 
-### 2.1Kriptografi
+### 2.1. Kriptografi
 
 - **Tanım:** Matematiksel algoritmalar kullanarak bilgilerin güvenli bir şekilde iletilmesi veya depolanması işlemidir.
 - **Önemi:**
   - Veri gizliliğini sağlar, sadece yetkili kişilerin bilgilere erişmesine izin verir.
   - Güvenli iletişim için kullanılarak veri paketlerini şifreler.
 
-### 2.2 Şifreleme Araçları
+### 2.2. Şifreleme Araçları
 
 - **Tanım:** Veriyi okunamaz bir hale getirme işlemidir, yalnızca belirli anahtara sahip kişilerin okuyabilmesini sağlar.
 - **Önemi:**
@@ -153,7 +153,7 @@ Ağ güvenliği, çok katmanlı bir yaklaşım gerektirir. Güvenlik duvarları,
 
 Bu rapor, günümüzdeki ağ güvenliği peyzajındaki önemli sorunları ele almakta ve bu sorunlara karşı alınabilecek çeşitli önlemleri incelemektedir. Temel odak noktaları arasında DDoS saldırıları, veri ihlalleri ve diğer güvenlik tehditleri bulunmaktadır.
 
-## I. DDoS Saldırıları
+## 1. DDoS Saldırıları
 
 ### Sorunlar
 
@@ -171,7 +171,7 @@ Bu rapor, günümüzdeki ağ güvenliği peyzajındaki önemli sorunları ele al
 2. **Bulut Tabanlı Güvenlik Hizmetleri:**
    - Bulut tabanlı DDoS koruma hizmetleri, hızlı tepki ve yüksek bant genişliği ile etkili bir çözüm sunabilir.
 
-## II. Veri İhlalleri
+## 2. Veri İhlalleri
 
 ### Sorunlar
 
@@ -192,7 +192,7 @@ Bu rapor, günümüzdeki ağ güvenliği peyzajındaki önemli sorunları ele al
 3. **Güvenlik Denetimleri ve İzleme:**
    - Düzenli güvenlik denetimleri ve izleme, potansiyel ihlalleri önceden tespit etmeye yardımcı olabilir.
 
-## III. Diğer Güvenlik Tehditleri
+## 3. Diğer Güvenlik Tehditleri
 
 ### Sorunlar
 
@@ -216,9 +216,9 @@ Bu başlıkta, ağ güvenliği alanındaki güncel sorunlara odaklanıldı ve bu
 
 ## Güvenlik Açıkları Tespiti ve Kapatılması İçin En İyi Uygulamalar
 
-### I. Zayıf Nokta Analizi (Vulnerability Assessment)
+### 1. Zayıf Nokta Analizi (Vulnerability Assessment)
 
-#### 1. Düzenli Zayıf Nokta Analizleri
+#### 1.1. Düzenli Zayıf Nokta Analizleri
 
 - **Sorun:**
   - Ağ üzerindeki güvenlik açıklarını belirlemek için periyodik zayıf nokta analizleri yapılmalıdır.
@@ -226,7 +226,7 @@ Bu başlıkta, ağ güvenliği alanındaki güncel sorunlara odaklanıldı ve bu
 - **Çözüm:**
   - Otomatik tarayıcılar ve manuel incelemeler kullanılarak tespit edilen açıklar hızla kapatılmalıdır.
 
-#### 2. Aktif ve Pasif Analiz
+#### 1.2. Aktif ve Pasif Analiz
 
 - **Sorun:**
   - Sadece aktif analizler yapmak yeterli değildir, aynı zamanda pasif analizlerle de ağ trafiği izlenmelidir.
@@ -234,9 +234,9 @@ Bu başlıkta, ağ güvenliği alanındaki güncel sorunlara odaklanıldı ve bu
 - **Çözüm:**
   - Aktif ve pasif analizler bir arada kullanılarak daha kapsamlı bir güvenlik değerlendirmesi yapılmalıdır.
 
-### II. Güvenlik Duvarları ve İntrüzyon Önleme Sistemleri (Firewalls ve IPS)
+### 2. Güvenlik Duvarları ve İntrüzyon Önleme Sistemleri (Firewalls ve IPS)
 
-#### 1. Güvenlik Duvarları ve IPS Kullanımı
+#### 2.1. Güvenlik Duvarları ve IPS Kullanımı
 
 - **Sorun:**
   - Kötü niyetli aktivitelerin engellenmesi için güvenlik duvarları ve IPS kullanımı zayıf olabilir.
@@ -244,9 +244,9 @@ Bu başlıkta, ağ güvenliği alanındaki güncel sorunlara odaklanıldı ve bu
 - **Çözüm:**
   - Güvenlik duvarları ve IPS, güncel imza tabanlı tehdit veritabanları ile düzenli olarak güncellenmelidir.
 
-### III. Güçlü Kimlik Doğrulama ve Erişim Kontrolleri
+### 3. Güçlü Kimlik Doğrulama ve Erişim Kontrolleri
 
-#### 1. Çok Faktörlü Kimlik Doğrulama
+#### 3.1. Çok Faktörlü Kimlik Doğrulama
 
 - **Sorun:**
   - Kullanıcı kimliklerinin güvenliği yeterli değilse, yetkisiz erişim riski artar.
@@ -254,7 +254,7 @@ Bu başlıkta, ağ güvenliği alanındaki güncel sorunlara odaklanıldı ve bu
 - **Çözüm:**
   - Çok faktörlü kimlik doğrulama kullanılarak güvenlik seviyesi artırılmalıdır.
 
-#### 2. Erişim Hakları Yönetimi
+#### 3.2. Erişim Hakları Yönetimi
 
 - **Sorun:**
   - Erişim hakları düzenli olarak gözden geçirilmezse, gereksiz ayrıcalıklar risk oluşturabilir.
@@ -262,9 +262,9 @@ Bu başlıkta, ağ güvenliği alanındaki güncel sorunlara odaklanıldı ve bu
 - **Çözüm:**
   - Erişim hakları düzenli olarak gözden geçirilmeli ve gereksiz ayrıcalıklar kaldırılmalıdır.
 
-### IV. Güvenlik Eğitimleri ve Farkındalık
+### 4. Güvenlik Eğitimleri ve Farkındalık
 
-#### 1. Güvenlik Eğitimleri
+#### 4.1. Güvenlik Eğitimleri
 
 - **Sorun:**
   - Personel, sosyal mühendislik saldırılarına karşı yeterince eğitilmemiş olabilir.
@@ -272,9 +272,9 @@ Bu başlıkta, ağ güvenliği alanındaki güncel sorunlara odaklanıldı ve bu
 - **Çözüm:**
   - Düzenli güvenlik eğitimleri düzenlenmeli ve personel güvenlik bilincini artırmak için sürekli olarak eğitilmelidir.
 
-### V. Güvenlik Olayları İzleme ve Tepki (SIEM)
+### 5. Güvenlik Olayları İzleme ve Tepki (SIEM)
 
-#### 1. Güvenlik Olayları İzleme
+#### 5.1. Güvenlik Olayları İzleme
 
 - **Sorun:**
   - Güvenlik olayları izlenmezse, anormal aktiviteler tespit edilemez.
@@ -282,9 +282,9 @@ Bu başlıkta, ağ güvenliği alanındaki güncel sorunlara odaklanıldı ve bu
 - **Çözüm:**
   - SIEM araçları kullanılarak güvenlik olayları izlenmeli ve hızlı bir şekilde tepki verilmelidir.
 
-### VI. Güvenlik Politikaları ve Uygulamaları
+### 6. Güvenlik Politikaları ve Uygulamaları
 
-#### 1. Güvenlik Politikaları
+#### 6.1. Güvenlik Politikaları
 
 - **Sorun:**
   - Güvenlik politikalarının eksik veya güncel olmaması güvenlik zafiyetlerine neden olabilir.
